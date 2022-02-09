@@ -149,13 +149,13 @@ var config = {
         },
         {
             id: 'second-slide',
-            alignment: 'center',
+            alignment: 'right',
             
             title: 'Map of Eurasia in 1240',
             image: '',
             description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ',
             location: {
-                center: [62.895, 46.59923],
+                center: [107.36297, 46.92184],
                 zoom: 2.36,
                 pitch: 0,
                 bearing: 0
