@@ -116,6 +116,10 @@ var config = {
                 {
                     layer:'second-nap',
                     opacity:0
+                }, 
+                {
+                    layer:'ae-date'
+                    opacity:0
                 }
                
                
@@ -1730,6 +1734,10 @@ var config = {
                 {
                     layer:'second-nap',
                     opacity:0
+                }, 
+                 {
+                    layer:'ae-date'
+                    opacity:1
                 }
 
 
@@ -1855,6 +1863,10 @@ var config = {
                 {
                     layer:'second-nap',
                     opacity:0
+                }, 
+                 {
+                    layer:'ae-date'
+                    opacity:1
                 }
                 
 
