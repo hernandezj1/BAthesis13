@@ -118,7 +118,7 @@ var config = {
                     opacity:0
                 }, 
                 {
-                    layer:'ae-date'
+                    layer:'ae-date',
                     opacity:0
                 }
                
@@ -1736,7 +1736,7 @@ var config = {
                     opacity:0
                 }, 
                  {
-                    layer:'ae-date'
+                    layer:'ae-date',
                     opacity:1
                 }
 
@@ -1865,7 +1865,7 @@ var config = {
                     opacity:0
                 }, 
                  {
-                    layer:'ae-date'
+                    layer:'ae-date',
                     opacity:1
                 }
                 
