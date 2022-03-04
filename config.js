@@ -6,7 +6,7 @@ var config = {
     theme: 'light',
     use3dTerrain: true,
     title: 'Complex Camapigns of Old',
-    subtitle: 'Mongol and napoleonic Operational Art',
+    subtitle: 'Mongol and Napoleonic Operational Art',
     byline: 'By Jose Hernandez',
     footer: '',
     chapters: [
@@ -15,7 +15,7 @@ var config = {
             id: 'first-slide',
             alignment: 'center',
             
-            title: 'What is operational art?',
+            title: 'What is Operational Art?',
             description: 'This project shall explore the elements of operational art by mapping and comparing the campaigns of the 13th century Mongols and the Napoleonic French. It is the hope of this project that the attribution fo rth ecreation of operational art be questioned by the observer. Operational art is defined by the US army as “ the skillful employment of military forces to attain strategic and operational objectives within a theater through the design, organization, integration, and conduct of theater strategies, campaigns, major operation as and battles.” To further specifiy their definition the FM 100-5 specified 5 conditions for the existence of operational art which are: a.	The identification of military strategic goalsb.	Establishing of military conditions c.	Sequential and simultenous operationsd.	Resource allocation e.	Commanders with broad operational vision.Therefore this collection of maps with their added descriptions hopes to show the existence of operational art, or at least some of its constituent parts within the Mongol military complex , before their attributed origin in Napoleon’s campaigns. ',
             image: 'images/Mongols.png',
             location: {
@@ -1103,6 +1103,14 @@ var config = {
                     opacity:0
                     
                 },
+                {
+                  layer: 'initial',
+                    opacity:1
+                },
+                 {
+                  layer: 'initial names',
+                    opacity:1
+                }
 
 
                
@@ -1208,6 +1216,14 @@ var config = {
                     opacity:0
                     
                 },
+                  {
+                  layer: 'initial',
+                    opacity:1
+                },
+                 {
+                  layer: 'initial names',
+                    opacity:1
+                }
              
 
 
@@ -1300,6 +1316,28 @@ var config = {
                     opacity:0
                     
                 },
+                  {
+                  layer: 'initial',
+                    opacity:0
+                },
+                 {
+                  layer: 'initial names',
+                    opacity:0
+                }, 
+                {
+                    layer:'nap2fig2',
+                    opacity:1
+                    
+                },
+                  {
+                  layer: 'nap2names',
+                    opacity:1
+                },
+                 {
+                  layer: 'nap2fig',
+                    opacity:1
+                }
+                
               
 
 
@@ -1308,6 +1346,229 @@ var config = {
         },
         {
             id: 'tenth-slide',
+            alignment: 'left',
+            
+            title: 'The Landshut Maneuver',
+            image: '',
+            description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            location: {
+                center: [10.89742, 48.70128],
+                zoom: 8.44,
+                pitch: 15,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer:'cities-initial-approach',
+                    opacity:0
+                },
+                {
+                    layer:'cities-initial-approach-route',
+                    opacity:0
+                },
+                {
+                    layer:'raids-in-poland',
+                    opacity:0
+                    
+                },
+                {
+                    layer:'raids-in-poland-copy',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'mongol-empire-boundaries',
+                    opacity:0
+                    
+                },
+                {
+                    layer:'textmongol',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'central-europe',
+                    opacity:0
+                    
+                },
+                {
+                    layer:'texteurope',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'endgame',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'dates',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'citynames',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'distance',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'distance names',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'distancetitles',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'distancedate',
+                    opacity:0
+                    
+                },
+                {
+                    layer:'political',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'names',
+                    opacity:0
+                    
+                },
+                   {
+                    layer:'nap2fig2',
+                    opacity:1
+                    
+                },
+                  {
+                  layer: 'nap2names',
+                    opacity:1
+                },
+                 {
+                  layer: 'nap2fig',
+                    opacity:1
+                }
+               
+
+
+                
+
+            ],
+            onChapterExit: [
+                {
+                    layer:'cities-initial-approach',
+                    opacity:0
+                },
+                {
+                    layer:'cities-initial-approach-route',
+                    opacity:0
+                },
+                {
+                    layer:'raids-in-poland',
+                    opacity:0
+                    
+                },
+                {
+                    layer:'raids-in-poland-copy',
+                    opacity:0
+                    
+                },
+                {
+                    layer:'mongol-empire-boundaries',
+                    opacity:0
+                    
+                },
+                {
+                    layer:'textmongol',
+                    opacity:0
+                    
+                },
+                {
+                    layer:'central-europe',
+                    opacity:0
+                    
+                },
+                {
+                    layer:'texteurope',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'endgame',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'dates',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'citynames',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'distance',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'distance names',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'distancetitles',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'distancedate',
+                    opacity:0
+                    
+                }, 
+               
+                {
+                    layer:'political',
+                    opacity:0
+                    
+                }, 
+                {
+                    layer:'names',
+                    opacity:0
+                    
+                },
+              
+                   {
+                    layer:'nap2fig2',
+                    opacity:0
+                    
+                },
+                  {
+                  layer: 'nap2names',
+                    opacity:0
+                },
+                 {
+                  layer: 'nap2fig',
+                    opacity:0
+                }
+
+
+               
+            ]
+        },
+             {
+            id: 'eleventh-slide',
             alignment: 'left',
             
             title: 'Conquering Regensburg',
@@ -1406,6 +1667,32 @@ var config = {
                     opacity:0
                     
                 },
+                   {
+                    layer:'nap2fig2',
+                    opacity:0
+                    
+                },
+                  {
+                  layer:'nap2names',
+                    opacity:0
+                },
+                 {
+                  layer:'nap2fig',
+                    opacity:0
+                }, 
+                  {
+                    layer:'regcol',
+                    opacity:1
+                }, 
+                {
+                    layer:'reglines',
+                    opacity:1
+                }, 
+                {
+                    layer:'regtitles',
+                    opacity:1
+                }, 
+                
                
 
 
@@ -1508,17 +1795,43 @@ var config = {
                 {
                     layer:'second-nap',
                     opacity:1
-                }
+                }, 
+                   {
+                    layer:'nap2fig2',
+                    opacity:0
+                    
+                },
+                  {
+                  layer: 'nap2names',
+                    opacity:0
+                },
+                 {
+                  layer: 'nap2fig',
+                    opacity:0
+                }, 
+                    {
+                    layer:'regcol',
+                    opacity:0
+                }, 
+                {
+                    layer:'reglines',
+                    opacity:0
+                }, 
+                {
+                    layer:'regtitles',
+                    opacity:0
+                },
+                
 
 
                
             ]
         },
         {
-            id: 'eleventh-slide',
+            id: 'twelveth-slide',
             alignment: 'left',
             
-            title: 'The biggest loss',
+            title: 'The Biggest Loss',
             image: 'images/Rplot01.png',
             description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
@@ -1745,7 +2058,7 @@ var config = {
             ]
         },
         {
-            id: 'twelfth-slide',
+            id: 'thirteen-slide',
             alignment: 'right',
             
             title: 'The last Chapter',
