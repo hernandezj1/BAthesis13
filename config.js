@@ -16,7 +16,7 @@ var config = {
             alignment: 'center',
             
             title: 'What is operational art?',
-            image: '',
+            image: 'images/Mongols.png',
             description: 'This project shall explore the elements of operational art by mapping and comparing the campaigns of the 13th century Mongols and the Napoleonic French. It is the hope of this project that the attribution fo rth ecreation of operational art be questioned by the observer. Operational art is defined by the US army as “ the skillful employment of military forces to attain strategic and operational objectives within a theater through the design, organization, integration, and conduct of theater strategies, campaigns, major operation as and battles.” To further specifiy their definition the FM 100-5 specified 5 conditions for the existence of operational art which are: a.	The identification of military strategic goalsb.	Establishing of military conditions c.	Sequential and simultenous operationsd.	Resource allocation e.	Commanders with broad operational vision.Therefore this collection of maps with their added descriptions hopes to show the existence of operational art, or at least some of its constituent parts within the Mongol military complex , before their attributed origin in Napoleon’s campaigns. ',
             location: {
                 center: [64.97469, 50.677601],
