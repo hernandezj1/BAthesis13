@@ -106,11 +106,11 @@ var config = {
                     
                 },
                 {
-                    layer: '2napline',
+                    layer:'2napline',
                     opacity:0
                 }, 
                 {
-                    layer:' 2napdates',
+                    layer:'2napdates',
                     opacity:0
                 }, 
                 {
@@ -1498,7 +1498,7 @@ var config = {
                     
                 },
                 {
-                    layer: '2napline',
+                    layer:'2napline',
                     opacity:1
                 }, 
                 {
@@ -1615,7 +1615,7 @@ var config = {
                     
                 },
                 {
-                    layer: '2napline',
+                    layer:'2napline',
                     opacity:1
                 }, 
                 {
