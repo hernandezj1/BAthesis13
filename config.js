@@ -16,8 +16,8 @@ var config = {
             alignment: 'center',
             
             title: 'What is operational art?',
-            image: '',
             description: 'This project shall explore the elements of operational art by mapping and comparing the campaigns of the 13th century Mongols and the Napoleonic French. It is the hope of this project that the attribution fo rth ecreation of operational art be questioned by the observer. Operational art is defined by the US army as “ the skillful employment of military forces to attain strategic and operational objectives within a theater through the design, organization, integration, and conduct of theater strategies, campaigns, major operation as and battles.” To further specifiy their definition the FM 100-5 specified 5 conditions for the existence of operational art which are: a.	The identification of military strategic goalsb.	Establishing of military conditions c.	Sequential and simultenous operationsd.	Resource allocation e.	Commanders with broad operational vision.Therefore this collection of maps with their added descriptions hopes to show the existence of operational art, or at least some of its constituent parts within the Mongol military complex , before their attributed origin in Napoleon’s campaigns. ',
+            image: 'images/Mongols.png',
             location: {
                 center: [64.97469, 50.677601],
                 zoom: 2.82,
@@ -1749,7 +1749,7 @@ var config = {
             alignment: 'right',
             
             title: 'The last Chapter',
-            image: 'C:\Users\joseh\Downloads\storytelling-main (2)\storytelling-main\src\images\mpa.png',
+            image: 'images/mpa.png',
             description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [18.30782, 47.05676],
